@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 chrome_driver_path = "C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
-driver = webdriver.Chrome(chrome_driver_path)
+driver = webdriver.Chrome("C:\chromedriver-win64\chromedriver-win64\chromedriver.exe")
 driver.get("http://orteil.dashnet.org/experiments/cookie/")
 
 #Get cookie to click on.

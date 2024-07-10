@@ -46,12 +46,12 @@ for element in all_price_elements:
 
 # Create Spreadsheet using Google Form
 # Substitute your own path here 👇
-chrome_driver_path = YOUR_PATH_HERE
+chrome_driver_path = "C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 for n in range(len(all_links)):
     # Substitute your own Google Form URL here 👇
-    driver.get(URL_TO_YOUR_GOOGLE_FORM)
+    driver.get("URL_TO_YOUR_GOOGLE_FORM")
 
     time.sleep(2)
     address = driver.find_element_by_xpath(

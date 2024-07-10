@@ -3,10 +3,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException
 import time
 
-CHROME_DRIVER_PATH = YOUR CHROM DRIVER PATH
+CHROME_DRIVER_PATH = "C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 SIMILAR_ACCOUNT = "buzzfeedtasty"
-USERNAME = YOUR INSTAGRAM USERNAME
-PASSWORD = YOUR INSTAGRAM PASSWORD
+USERNAME = "YOUR INSTAGRAM USERNAME"
+PASSWORD = "YOUR INSTAGRAM PASSWORD"
 
 
 class InstaFollower:

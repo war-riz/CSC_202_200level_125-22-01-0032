@@ -21,7 +21,7 @@ def abort_application():
     discard_button.click()
 
 
-chrome_driver_path = "YOUR CHROME DRIVER PATH"
+chrome_driver_path = "C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 
 # Optional - Automatically keep your chromedriver up to date.
 from webdriver_manager.chrome import ChromeDriverManager  # pip install webdriver-manager

@@ -31,11 +31,11 @@ all_price_elements = soup.select(".list-card-details li")
 all_prices = [price.get_text().split("+")[0] for price in all_price_elements if "$" in price.text]
 
 
-chrome_driver_path = YOUR_PATH_TO_THE_CHROME_DRIVER
+chrome_driver_path = "C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 for n in range(len(all_links)):
-    driver.get(YOUR_GOOGLE_FORM_LINK)
+    driver.get("YOUR_GOOGLE_FORM_LINK")
     
     time.sleep(2)
     address = driver.find_element_by_xpath(
